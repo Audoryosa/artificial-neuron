@@ -16,7 +16,7 @@ public class Main {
         int[] output = new int[] {0, 0, 1, 1};
 
         // create neuron with given input, expected output and activation function
-        Neuron neuron = new Neuron(input, output, Option.SIGMOID);
+        Neuron neuron = new Neuron(input, output, Option.STEP);
         double[] weights = neuron.getWeight();
 
         // print calculated weights
